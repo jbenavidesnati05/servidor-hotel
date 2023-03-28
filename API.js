@@ -1,5 +1,5 @@
 import express from 'express'
-import { rutas } from './routes/rutas.'
+import { rutas } from './routes/rutas.js'
 
 export class API {
     constructor(){
