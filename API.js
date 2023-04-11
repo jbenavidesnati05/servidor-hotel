@@ -11,6 +11,7 @@ export class API {
             this.app.listen(3000,function(){console.log("servidor encendido");})
     }
     enrutarPeticiones(){
+        this.app.use(express.json())
         this.app.use('/', rutas)
     }
     conectarBD(){}
